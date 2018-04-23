@@ -13,7 +13,7 @@ var  db = mysql.createConnection({
     // password: "Yenmiz!$!!96",
     // database:"qldttx_chatapp",
     
-    host: "mysql.hostinger.vn",
+    host: "sql54.hostinger.vn",
     // localAddress: '127.0.0.1',
     // port: 82,
     user: "u201462387_jerry",

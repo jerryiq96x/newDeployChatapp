@@ -20,7 +20,15 @@ var  db = mysql.createConnection({
     password: 'appchat',
     database: 'dbcl_chatapp'
 });
-console.log(db);
+db.connect(function(err) {
+    if (err) {
+      console.error('error connecting: ' + err.stack);
+      return;
+    }
+   
+    console.log('connected as id ' + db.threadId);
+  });
+// console.log(db);
 var server = http.createServer();
 
 var clients = [];

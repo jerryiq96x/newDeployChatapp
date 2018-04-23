@@ -14,10 +14,11 @@ var  db = mysql.createConnection({
     // database:"qldttx_chatapp",
     
     host: "localhost",
+    localAddress: '118.70.222.157',
     // port: 82,
-    user: "root",    
-    password: '',
-    database: 'chatapp'
+    user: "chatapp",
+    password: 'appchat',
+    database: 'dbcl_chatapp'
 });
 console.log(db);
 var server = http.createServer();

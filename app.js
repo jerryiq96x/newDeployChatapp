@@ -13,12 +13,12 @@ var  db = mysql.createConnection({
     // password: "Yenmiz!$!!96",
     // database:"qldttx_chatapp",
     
-    host: "dbcl.hou.edu.vn",
-    localAddress: '127.0.0.1',
+    host: "mysql.hostinger.vn",
+    // localAddress: '127.0.0.1',
     // port: 82,
-    user: "chatapp",
-    password: 'appchat',
-    database: 'dbcl_chatapp'
+    user: "u201462387_jerry",
+    password: 't0962287514',
+    database: 'u201462387_chat'
 });
 db.connect(function(err) {
     if (err) {

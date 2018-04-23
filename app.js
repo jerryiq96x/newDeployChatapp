@@ -13,8 +13,8 @@ var  db = mysql.createConnection({
     // password: "Yenmiz!$!!96",
     // database:"qldttx_chatapp",
     
-    host: "localhost",
-    localAddress: '118.70.222.157',
+    host: "118.70.222.157",
+    localAddress: '127.0.0.1',
     // port: 82,
     user: "chatapp",
     password: 'appchat',

@@ -328,6 +328,7 @@ wsServer.on('request', function(request){
             else if(object.saveHistory)
             {
                 var json = object.saveHistory;
+                console.log('history => ', json);
                 var pk = helper.getRandomString(25);
                 var stdTime = (new Date()).getTime();
                 var q_s = `SELECT PK_idHistory from tbl_history WHERE sLink like ? AND FK_sClientID like ?`;

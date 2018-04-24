@@ -6,26 +6,11 @@ var helpers = require('./libs/helpers');
 var port = process.env.PORT || 1337;
 var mysql = require('mysql');
 var  db = mysql.createConnection({
-    // 
-    // host: '123.30.185.44',
-    // port: 2083,
-    // user: "qldttx_chatapp",
-    // password: "Yenmiz!$!!96",
-    // database:"qldttx_chatapp",
-    
-    // host: "118.70.222.157",
-    // localAddress: '127.0.0.1',
-    // // port: 82,
-    // user: "u201462387_jerry",
-    // password: 't0962287514',
-    // database: 'u201462387_chat'
-    host: "localhost",
-    // localAddress: '185.27.134.10',
-    // port: 82,
-    user: "root",
-    password: '',
-    database: 'chatapp',
-    connectTimeout: 3600000
+    host: "sql12.freemysqlhosting.net",
+    // port:
+    user: "sql12234374",
+    password: 'r1p843eg9g',
+    database: 'sql12234374',
 });
 db.connect(function(err) {
     if (err) {
